@@ -22,4 +22,11 @@
  
 <hr>
 
-    
+## Max Rohowsky - [Using Git & GitHub in VSCode: Stage, Commit, and Push](https://www.youtube.com/watch?v=z5jZ9lrSpqk)
+- **Git vs GitHub**: Git is just a verison control system, GitHub is a hub for Git repositories.
+- Initialize a repository in VSCode.
+- Once you create files/make changes, Source Control tab shows that you have uncommitted changes. You can see the changes you've made and you can commit these changes and add a message.
+- Then we can publish the branch (may need to authorize and log into GitHub online first).
+- If changes are made locally, we can push them so it reflects in the repository. If changes are made directly in the repository, then just pull the branch locally and can see the changes in VSCode.
+- Can also stage changes in VSCode.
+
