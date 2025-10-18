@@ -4,3 +4,22 @@
 - **Pull Requests**: PRs are used to merge these branches into the main development branch. Other people can review your PR and see if there's anything wrong, conflicting, or anything that could potentially break the code. This is commonly used in open-source repositories since it makes it so that no one can just randomly merge their branches in a public open-source project. Instead, people can make pull requests and then one of the main contributors can review and agree to push your changes.
 - **Merge Conflicts**: There are times where Git doesn't know which conflicting code to keep or discard; so it has to ask humans to pick which version to use. If the same line is edited in both the branches, or there are some other conflicts, Git will not know what to do, so human intervention is required here. Git marks the problem areas so it's easier to see.
 - **Merge vs. Rebase**: When merging two branches, Git looks to merge 3 different commits - last common commit, and latest commits of both the branches. Git then creates a new merge commit that actually does the merging and wraps all the changes into it. The difference in rebasing is that it will take the latest commit of one of the branches and merge it with the main branch, then take the latest commit of the other branch and try to merge it with main.  
+
+<hr>
+
+## Corey Schafer - [Git Tutorial for Beginners: Command-Line Fundamentals](https://www.youtube.com/watch?v=HVsySz-h9r4)
+- How to install Git and set global config variables.
+- How to initialize a repository from existing local code.
+- .git and .gitignore files.
+- Working directory: All the files in the codebase directory.
+- Staging Area: Organize what needs to be committed here. Can commit large file changes in small chunks.
+- How to clone an existing repository, create branches, commit files (locally), and push changes (to the repository). TO push changes:
+  - commit and push your branch
+  - checkout to master branch
+  - pull all changes from origin master
+  - run `git merge <branch>` to merge your branch into master
+  - push origin master to the repository
+ 
+<hr>
+
+    
